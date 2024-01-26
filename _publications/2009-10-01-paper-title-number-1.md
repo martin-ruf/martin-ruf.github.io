@@ -1,7 +1,7 @@
 ---
 title: "My paper is called"
 collection: publications
-permalink: /files/ruf-2011-FA.pdf
+permalink: /files/paper1.pdf
 #excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 #date: 2009-10-01
 venue: 'Journal of Finance1'
