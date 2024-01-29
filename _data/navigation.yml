@@ -5,7 +5,8 @@ main:
     url: /cv/
   
   - title: "Publications"
-    url: /publications/
+    #url: /publications/
+    url: https://uni-tuebingen.de/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-wirtschaftswissenschaft/wirtschaftswissenschaft/lehrstuehle/betriebswirtschaftslehre/international-business-taxation/team/prof-dr-martin-ruf/
 
   - title: "Teaching"
     url: /portfolio/
