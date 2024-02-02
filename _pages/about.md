@@ -26,6 +26,6 @@ due to adjustments in CEO compensation.
 The EU implemented a excess profit tax in the energy sector in 2022. An Excess profits is a theoretical construct, which is not empirically observable. The implemented tax may thus affect firms violating the ability to pay principle. 
 
 
-[Besteuerung der Unternehmen](https://link.springer.com/book/10.1007/978-3-658-33694-3))
+[Besteuerung der Unternehmen](https://link.springer.com/book/10.1007/978-3-658-33694-3)
 
 This 1200 pages textbook is a comprehensive presentation of the German business tax law and its effects on business decisions.
