@@ -13,6 +13,8 @@ I am a professor at the University of Tübingen. I am interested in how to shape
 Recent Research
 ======
 [The Effect of Taxes on CEO Performance](https://www.rsit-uni-tuebingen.de/app/download/12247723897/RSIT-WP-07-22.pdf?t=1705575546)
+
+
 In response to higher taxes on compensation,
 CEOs are less likely to reach performance goals and spend more time working in boards
 outside of their firm. At the same time, firm performance drops before eventually
