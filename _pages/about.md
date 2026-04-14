@@ -20,7 +20,7 @@ recovering as investment projects with below average profitability are disregard
 due to adjustments in CEO compensation.
 
 
-[Ökonomische und empirische Einordnung der Übergewinnsteuer](https://research.owlit.de/document/c1973dc5-94ce-383f-a590-e66c070df190)
+[Ökonomische und empirische Einordnung der Übergewinnsteuer](/files/moderau-ruf-2023-uebergewinn.pdf)
 The EU implemented a excess profit tax in the energy sector in 2022. An Excess profits is a theoretical construct, which is not empirically observable. The implemented tax may thus affect firms violating the ability to pay principle. 
 
 
