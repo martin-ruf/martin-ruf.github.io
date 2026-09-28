@@ -24,5 +24,5 @@ due to adjustments in CEO compensation.
 German inheritance tax largely exempts business assets to protect jobs. Using data on inherited and sold family firms, this study finds no evidence that firm sales reduce employment; sold firms show stronger employment growth on average. The findings challenge the employment-based rationale for broad tax relief for business assets.
 
 
-[Ökonomische und empirische Einordnung der Übergewinnsteuer](https://uni-tuebingen.de/en/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-wirtschaftswissenschaft/wirtschaftswissenschaft/lehrstuehle/betriebswirtschaftslehre/international-business-taxation/research/)
+[An Economic and Empirical Assessment of the Excess Profits Tax](https://uni-tuebingen.de/en/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-wirtschaftswissenschaft/wirtschaftswissenschaft/lehrstuehle/betriebswirtschaftslehre/international-business-taxation/research/)
 The EU introduced a temporary excess profits tax for the energy sector in 2022. Because excess profits are a theoretical benchmark rather than a directly observable quantity, the practical tax base can only approximate them. The paper discusses the resulting economic and distributional implications.
