@@ -13,7 +13,7 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if post.collection == 'publications' %} archive__item--publication{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -27,7 +27,9 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
+      {% if post.collection == 'publications' %}
+        {{ title }}{% if post.subtitle %}: {{ post.subtitle }}{% endif %}
+      {% elsif post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
@@ -38,10 +40,26 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-        {% if post.collection == 'teaching' %}
+        {% if post.collection == 'publications' %}
+          <p class="publication__authors">{{ post.authors | replace: 'Martin Ruf', '<strong>Martin Ruf</strong>' }}</p>
+          <p class="publication__details">
+            {% if post.type == 'book' %}
+              {{ post.edition }}, {{ post.publisher }}, {{ post.date | date: "%Y" }}.
+            {% elsif post.type == 'chapter' %}
+              In: <i>{{ post.venue }}</i>{% if post.editors %}, edited by {{ post.editors }}{% endif %}{% if post.publisher %}, {{ post.publisher }}{% endif %}, {{ post.date | date: "%Y" }}.
+            {% else %}
+              <i>{{ post.venue }}</i>{% if post.issue_label %}, {{ post.issue_label }}{% elsif post.volume %} {{ post.volume }}{% if post.issue %} ({{ post.issue }}){% endif %}{% endif %}, {{ post.date | date: "%Y" }}{% if post.pages %}, {{ post.pages }}{% elsif post.article_number %}, {{ post.article_number }}{% endif %}.
+            {% endif %}
+          </p>
+          {% if post.article_url or post.pdf_url or post.book_url %}
+            <p class="publication__links">
+              {% if post.article_url %}<a href="{{ post.article_url }}">Article</a>{% endif %}
+              {% if post.pdf_url contains '://' %}<a href="{{ post.pdf_url }}">PDF</a>{% elsif post.pdf_url %}<a href="{{ post.pdf_url | prepend: base_path }}">PDF</a>{% endif %}
+              {% if post.book_url %}<a href="{{ post.book_url }}">Book</a>{% endif %}
+            </p>
+          {% endif %}
+        {% elsif post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -52,7 +70,8 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl %}
+    {% if post.collection == 'publications' %}
+    {% elsif post.citation and post.paperurl %}
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>

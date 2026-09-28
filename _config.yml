@@ -79,14 +79,15 @@ analytics:
 author:
   name             : "Martin Ruf"
   avatar           : "1606_Ruf_Martin_Prof_2-geschn.jpg"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : #"Tübingen, Germany"
-  employer         : "Universität Tübingen"
+  bio              : "Professor of International Business Taxation"
+  location         :
+  employer         : "University of Tübingen"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.de/citations?hl=de&user=gUglgngAAAAJ"
-  email            :
+  email            : "martin.ruf@uni-tuebingen.de"
   researchgate     :  #example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              : "https://uni-tuebingen.de/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-wirtschaftswissenschaft/wirtschaftswissenschaft/lehrstuehle/betriebswirtschaftslehre/international-business-taxation/team/prof-dr-martin-ruf/"
+  uri_label        : "University profile"
   bitbucket        :
   codepen          :
   dribbble         :
