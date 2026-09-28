@@ -20,8 +20,8 @@ recovering as investment projects with below average profitability are disregard
 due to adjustments in CEO compensation.
 
 
-[Ökonomische und empirische Einordnung der Übergewinnsteuer](/files/moderau-ruf-2023-uebergewinn.pdf)
-The EU implemented a excess profit tax in the energy sector in 2022. An Excess profits is a theoretical construct, which is not empirically observable. The implemented tax may thus affect firms violating the ability to pay principle. 
+[Inheritance Tax Relief and Employment in Family Firms](https://uni-tuebingen.de/en/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-wirtschaftswissenschaft/wirtschaftswissenschaft/lehrstuehle/betriebswirtschaftslehre/international-business-taxation/research/)
+German inheritance tax largely exempts business assets to protect jobs. Using data on inherited and sold family firms, this study finds no evidence that firm sales reduce employment; sold firms show stronger employment growth on average. The findings challenge the employment-based rationale for broad tax relief for business assets.
 
 
 [Besteuerung der Unternehmen](https://link.springer.com/book/10.1007/978-3-658-33694-3)
