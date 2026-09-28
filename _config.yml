@@ -82,6 +82,7 @@ author:
   bio              : "Professor of International Business Taxation"
   location         :
   employer         : "University of Tübingen"
+  employer_url     : "https://uni-tuebingen.de/en/"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.de/citations?hl=de&user=gUglgngAAAAJ"
   email            : "martin.ruf@uni-tuebingen.de"
