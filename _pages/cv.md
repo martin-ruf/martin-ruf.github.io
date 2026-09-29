@@ -1,8 +1,8 @@
 ---
-layout: archive
+layout: academic
 title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
+page_class: cv
 redirect_from:
   - /resume
 ---

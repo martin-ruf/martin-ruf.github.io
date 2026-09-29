@@ -1,16 +1,18 @@
 ---
-layout: archive
+layout: academic
 title: "Publications"
 permalink: /publications/
-author_profile: true
+page_class: publications
 ---
-
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+{% if site.author.googlescholar %}
+<p class="academic-scholar-note">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</p>
+{% endif %}
+
+<div class="academic-publication-list">
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>
