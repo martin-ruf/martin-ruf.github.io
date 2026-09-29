@@ -16,7 +16,7 @@ redirect_from:
       <p class="cv-affiliation">University of Tübingen</p>
       <p class="cv-updated">Updated September 2026</p>
     </div>
-    <a class="btn btn--primary cv-download" href="{{ base_path }}/files/CV-Ruf-2026.pdf" target="_blank" rel="noopener">
+    <a class="cv-download" href="{{ base_path }}/files/CV-Ruf-2026.pdf" target="_blank" rel="noopener">
       <i class="fas fa-file-pdf" aria-hidden="true"></i>
       Download CV (PDF)
     </a>
