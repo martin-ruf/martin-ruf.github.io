@@ -299,6 +299,10 @@ body {
     padding: 9px 13px;
     border: 1px solid $academic-link;
     border-radius: 4px;
+    color: $academic-link;
+    background: #fff;
+    box-shadow: none;
+    font-size: 0.9rem;
     text-decoration: none;
 
     &:hover,
